@@ -46,4 +46,4 @@ Python libraries used in the project:
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Code released under the MIT License. Must give credit to Figure Eight for the data.
+Code released under the MIT License. Must give credit to Udacity for the data.
