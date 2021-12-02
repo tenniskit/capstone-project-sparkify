@@ -14,11 +14,15 @@
 
 Given that I were Data Scientist working for an online music streaming company called "Sparkify". Users' subscriptions on Sparkify are either Free-tier or Subscription. Both of types of users can cancel the subscription anytime. Cancelling subscription is called 'churn'. The project aims at building a model with Logistics Regression algorithm, trying to predict which users are likely to churn based on their behaviour on Sparkify.
 
+For the detail documentation, please refer to a blog post on Medium:
+<a href='https://medium.com/@kitsamy2k/create-a-model-to-predict-churn-users-8ed233147b14'>Blog post</a>
+
 ## What's included <a name="included"></a>
 
 ```text
 (project folder)/
 ├── mini_sparkify_event_data.json
+├── Sparkify.html
 ├── Sparkify.ipynb
 ```
 
@@ -27,7 +31,9 @@ Given that I were Data Scientist working for an online music streaming company c
 
 1. mini_sparkify_event_data.jsondata/disaster_categories.csv
     - Dataset containing users' behaviours on Sparkify.
-2. Sparkify.ipynb
+2. Sparkify.html
+    - The Jupyter Notebook file in HTML format.
+3. Sparkify.ipynb
     - The Jupyter Notebook file containing source-code of data science process of predicting churn of users.
 
 ## Installation <a name="installation"></a>
