@@ -21,7 +21,7 @@ For the detail documentation, please refer to a blog post on Medium:
 
 ```text
 (project folder)/
-├── mini_sparkify_event_data.json
+├── mini_sparkify_event_data.zip
 ├── Sparkify.html
 ├── Sparkify.ipynb
 ```
@@ -29,8 +29,8 @@ For the detail documentation, please refer to a blog post on Medium:
 
 ## File Descriptions <a name="files_desc"></a>
 
-1. mini_sparkify_event_data.jsondata/disaster_categories.csv
-    - Dataset containing users' behaviours on Sparkify.
+1. mini_sparkify_event_data.zip
+    - Dataset containing users' behaviours on Sparkify. Since the file is zipped, the python program will automatically unzip it before reading.
 2. Sparkify.html
     - The Jupyter Notebook file in HTML format.
 3. Sparkify.ipynb
@@ -48,6 +48,7 @@ Python libraries used in the project:
 5. datetime
 6. matplotlib
 7. sys
+8. zipfile 
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
